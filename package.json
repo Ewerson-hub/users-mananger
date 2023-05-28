@@ -1,0 +1,16 @@
+{
+  "name": "users-manager",
+  "version": "1.0.0",
+  "description": "application to test the contents that I studied",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ewerson Lucas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.7"
+  }
+}

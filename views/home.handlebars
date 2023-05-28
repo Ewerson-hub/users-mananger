@@ -1,0 +1,19 @@
+<a href="/newUser">Register a new User</a>
+<br>
+<hr>    
+<table border="1px">
+    <tr>
+        <td>Name</td>
+        <td>Email</td>
+        <td></td>
+    </tr>
+    {{#each users}}
+         <tr>
+            <td>{{name}}</td>
+            <td>{{email}}</td>
+            <td>
+                <a href="/">Update</a> | <a href="/">Delete</a>
+            </td>
+         </tr>
+    {{/each}}
+</table>
